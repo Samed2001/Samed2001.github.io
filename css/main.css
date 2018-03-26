@@ -1,0 +1,197 @@
+*{
+  margin: 0;
+  padding:0;
+}
+
+body{
+  font-family:consolas, monaco;
+  background-color:  #e6e6e6;
+  margin-left: 13%;
+  margin-right: 13%;
+  background-image: url("grfx/bg2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+ol{
+  list-style: none;
+}
+
+h1{
+  color:black;
+  background-color: rgb(255, 175, 26);
+  padding: 5px;
+  border-radius: 5px;
+}
+
+h2{
+  color:black;
+  background-color: rgb(255, 175, 26);
+  padding: 5px;
+  border-radius: 5px;
+}
+
+a{
+  color: rgb(255, 175, 26);
+  text-decoration: underline;
+}
+
+a:hover{
+  color: rgb(255, 100, 26);
+}
+
+nav{
+  width: 100%;
+  display: inline;
+}
+
+nav ul{
+  list-style: none;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  text-align: center;
+  font-size: 20px;
+  border-radius: 5px;
+  margin: 0 auto;
+  margin-top: 5px;
+}
+
+nav ul li a{
+  color: white;
+  text-decoration: none;
+}
+
+nav ul li a:hover{
+  color: white;
+}
+
+nav ul li{
+  padding: 10px;
+  display: inline-block;
+}
+
+nav ul li:hover{
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+#wrapper{
+  display: flex;
+  flex-direction: row;
+  margin-top: 5px;
+}
+
+ main{
+  width:100%;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 5px;
+  background-color: rgba(255, 255, 255, 0.5);
+  margin-top: 5px;
+}
+
+.main-pages{
+  width: 673px;
+}
+
+aside{
+  display: flex;
+  flex-direction: column;
+  flex:1;
+  padding: 5px;
+  margin-top: 5px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+#voetbal{
+  max-width: 100%;
+  max-height: 100%;
+  width: 325px;
+  height: 80px;
+  padding: 5px;
+}
+
+#selfie{
+  max-width: 100%;
+  max-height: 100%;
+  width: 255px;
+  height: 360px;
+  margin: 0 auto;
+  border: 4px solid rgb(255, 175, 26);
+  border-radius: 75px;
+}
+
+.opdrachten{
+  width: 500px;
+  height: 250px;
+  margin: 4px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.footer{
+  width: 100%;
+  color: rgb(255, 175, 26);
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 5px;
+  margin-top: 5px;
+  padding: 5px;
+  width: 673px;
+}
+
+.personalia{
+  font-size: 25px;
+}
+
+/*MEDIA QUERY*/
+@media screen and (max-width: 554px){
+
+  body{
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+
+  #wrapper{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+  }
+
+  nav ul{
+    display: flex;
+    flex-direction: column;
+  }
+
+  main{
+    font-size: 12px;
+    width: 100%;
+  }
+
+  .main-pages{
+    font-size: 12px;
+    width: 100%;
+  }
+
+  .opdrachten{
+    width: 100%;
+    height: 50%;
+  }
+
+  aside{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  nav{
+    width: 100%;
+    font-size: 20px;
+<<<<<<< HEAD
+  }
+
+  .footer{
+    width: 100%;
+=======
+>>>>>>> 10773b321b40975738a0e003f23b1107697cbefd
+  }
+}
